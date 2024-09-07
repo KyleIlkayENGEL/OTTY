@@ -1,0 +1,59 @@
+.lesson-card {
+  background-color: var(--color-green-lighter);
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%; /* Increased width */
+  margin: 20px auto;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.instructions-card {
+  background-color: var(--color-white);
+  padding: 15px;
+  border-radius: 8px;
+  width: 80%;
+  margin: 20px auto;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.code-editor-card {
+  background-color: var(--color-white);
+  padding: 15px;
+  border-radius: 8px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.quiz-card {
+  background-color: var(--color-white);
+  padding: 15px;
+  border-radius: 8px;
+  width: 80%;
+  margin: 20px auto;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-question {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.nav-button {
+  background-color: var(--color-forest-green);
+  color: var(--color-white);
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: var(--color-orange-medium);
+}
+
+button {
+  width: 120px; /* Button sizing for consistency */
+}

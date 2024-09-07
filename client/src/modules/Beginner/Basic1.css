@@ -1,0 +1,54 @@
+.basic1-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.basic1-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.basic1-container p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.section-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.section-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: left;
+}
+
+.section-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.section-card p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.start-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.start-button:hover {
+    background-color: #218838;
+}

@@ -1,0 +1,94 @@
+.teamwork-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.teamwork-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.teamwork-container p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.exercise-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px auto;
+    width: 80%;
+    text-align: left;
+}
+
+.exercise-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.exercise-card p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.start-button,
+.submit-button,
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    font-size: 16px;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.start-button:hover,
+.submit-button:hover,
+.back-button:hover {
+    background-color: #218838;
+}
+
+.exercise-container {
+    text-align: left;
+}
+
+.exercise-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.exercise-container p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.exercise-container textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.result {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.result h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.result p {
+    font-size: 1.2em;
+    color: #555;
+}

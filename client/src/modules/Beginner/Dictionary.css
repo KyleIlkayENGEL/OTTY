@@ -1,0 +1,40 @@
+.dictionary-container {
+    padding: 20px;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.dictionary-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.dictionary-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dictionary-container li {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.dictionary-container li strong {
+    color: #218838;
+    font-weight: bold;
+}
+
+.dictionary-container li::before {
+    content: "📖";
+    margin-right: 10px;
+    font-size: 1.2em;
+    vertical-align: middle;
+}

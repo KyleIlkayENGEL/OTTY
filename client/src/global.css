@@ -1,0 +1,112 @@
+/* global.css */
+
+/* Tailwind base, components, and utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom color palette */
+:root {
+    --color-orange-light: #FFAF6E;
+    --color-orange-medium: #FFCC80;
+    --color-yellow-light: #FFE2A6;
+    --color-green-light: #BCC07B;
+    --color-green-lighter: #C7F6C7;
+    --color-forest-green: #2E6F40;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+}
+
+/* Typography */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: var(--color-black);
+    background-color: var(--color-white);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', serif;
+    color: var(--color-forest-green);
+    margin-bottom: 1rem;
+}
+
+/* Links */
+a {
+    color: var(--color-forest-green);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--color-orange-light);
+}
+
+/* Buttons */
+button {
+    background-color: var(--color-forest-green);
+    color: var(--color-white);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--color-orange-medium);
+}
+
+/* Containers */
+.container {
+    @apply max-w-7xl mx-auto px-5;
+}
+
+/* Navbar */
+.navbar {
+    @apply bg-forest-green p-4 flex justify-between items-center;
+}
+
+.navbar a {
+    color: var(--color-white);
+    margin-right: 15px;
+    font-size: 1.1rem;
+}
+
+.navbar a:hover {
+    color: var(--color-yellow-light);
+}
+
+/* Cards */
+.card {
+    @apply bg-white border p-5 my-5 rounded shadow-md;
+    border-color: var(--color-green-light);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: var(--color-forest-green);
+}
+
+/* Footer */
+.footer {
+    @apply bg-forest-green text-white text-center p-3;
+}
+
+/* Utility classes */
+
+.mb-20 {
+    @apply mb-5;
+}
+
+.mt-20 {
+    @apply mt-5;
+}
+
+.p-20 {
+    @apply p-5;
+}

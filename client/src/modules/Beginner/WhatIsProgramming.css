@@ -1,0 +1,89 @@
+/* General Page Styling */
+.lesson-page-container {
+  padding: 20px;
+}
+
+.lesson-section {
+  background-color: var(--color-green-lighter);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+/* Video Container */
+.video-container {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  position: relative;
+}
+
+.video-container iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+}
+
+/* Quiz Card */
+.quiz-card {
+  background-color: var(--color-white);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-card p,
+.quiz-card label {
+  color: var(--color-forest-green); /* Set the text color to dark green for visibility */
+}
+
+/* Radio Buttons */
+input[type="radio"] {
+  accent-color: var(--color-forest-green); /* Changes the color of the radio button when selected */
+}
+
+/* Quiz Submit Button */
+.quiz-submit-button {
+  background-color: var(--color-forest-green);
+  color: var(--color-white);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.quiz-submit-button:hover {
+  background-color: var(--color-orange-medium);
+}
+
+/* Next Lesson Button */
+.next-lesson-button {
+  background-color: var(--color-forest-green);
+  color: var(--color-white);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.next-lesson-button:hover {
+  background-color: var(--color-orange-medium);
+}
+
+/* Adjustments to the quiz-result container */
+.quiz-result {
+  background-color: var(--color-green-lighter);
+  color: var(--color-forest-green);
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  text-align: center; /* Center text and button */
+}
+
