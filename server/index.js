@@ -18,13 +18,18 @@ app.use(express.urlencoded({ extended: false }));
 // Serve static files from the 'uploads' directory
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
-// Ensure the correct path here
+// Import and use user routes
 app.use('/api/users', require('./userRoutes'));
 
-// Import and use the OpenAI routes
+// Import and use OpenAI routes
 const openaiRoutes = require('./openaiRoutes');
-app.use('/api', openaiRoutes); // Adjust the path as needed
+app.use('/api', openaiRoutes);
 
+// Import and use Code Execution routes for the IDE
+const codeExecutionRoutes = require('./codeExecutionRoutes');
+app.use('/api', codeExecutionRoutes);
+
+// Error handler
 app.use(errorHandler);
 
 const PORT = process.env.PORT || 5000;
